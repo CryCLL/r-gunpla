@@ -1,3 +1,21 @@
+/* logo positioning */
+
+#header-bottom-left #header-img {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+/* top bar styling */
+#header-bottom-left .redditname {
+  display: none
+}
+
+#header-bottom-left .tabmenu {
+  display: block;
+  margin-left: 300px;
+}
+
 /* Scrolling banner */
 #header-bottom-left {
     height: 60px !important;
