@@ -1,67 +1,25 @@
-/* logo positioning */
+/* top banner */
+#header-bottom-left {
+  background: url(%%banner-20150817%%) repeat-x;
+  height: 160px;
+}
 
+/* logo positioning - center it with banner */
 #header-bottom-left #header-img {
-  position: absolute;
-  left: 10px;
+  position: relative;
   top: 10px;
 }
 
-/* top bar styling */
+/* hide the subreddit name */
 #header-bottom-left .redditname {
-  display: none
+  display: none;
 }
 
+/* nudge tabmenu slightly down, to touch the bottom of the banner */
 #header-bottom-left .tabmenu {
-  display: block;
-  margin-left: 300px;
+  position: relative;
+  bottom: -10px;
 }
-
-/* Scrolling banner */
-#header-bottom-left {
-    height: 60px !important;
-    padding: 100px 0 0 !important;
-    background-image: url(%%banner-20150817%%);
-    font-size: small;
-    background-repeat: repeat;
-    border: 0px solid transparent;
-    position: relative;
-    -webkit-animation: scrollLeft 100s linear infinite;
-    -moz-animation: scrollLeft 100s linear infinite;
-    animation: scrollLeft 100s linear infinite; }
-
-@-webkit-keyframes scrollLeft {
-  0% {
-    background-position: 0px 0px; }
-  100% {
-    background-position: -3840px 0px; } }
-@-moz-keyframes scrollLeft {
-  0% {
-    background-position: 0px 0px; }
-  100% {
-    background-position: -3840px 0px; } }
-@-ms-keyframes scrollLeft {
-  0% {
-    background-position: 0px 0px; }
-  100% {
-    background-position: -3840px 0px; } }
-@-o-keyframes scrollLeft {
-  0% {
-    background-position: 0px 0px; }
-  100% {
-    background-position: -3840px 0px; } }
-@keyframes scrollLeft {
-  0% {
-    background-position: 0px 0px; }
-  100% {
-    background-position: -3840px 0px; }
-}
-
-#header {
-    border-bottom: 0px solid #364657;
-    font-size: x-small;
-    padding: 0
-}
-
 
 /* == redditBassic reddit CSS Theme v1.4 - (http://www.reddit.com/r/redditBasic/)== */
 
