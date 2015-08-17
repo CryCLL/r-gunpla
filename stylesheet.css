@@ -126,6 +126,12 @@ html {
     position: relative;
 }
 
+/* reddit has a weird mix of round corners, since I am not a big fan of them anyway they got to go. This is the easiest way to make sure they are all gone */
+* {
+	border-radius: 0 !important;
+}
+
+
 .tabmenu li.selected a {
     border: 0 !important;
 }
