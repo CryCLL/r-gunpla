@@ -4,10 +4,10 @@
   height: 160px;
 }
 
-/* logo positioning - center it with banner */
+/* logo positioning */
 #header-bottom-left #header-img {
-  position: relative;
-  top: 10px;
+  position: absolute;
+  bottom: 30px;
 }
 
 /* hide the subreddit name */
@@ -17,8 +17,9 @@
 
 /* nudge tabmenu slightly down, to touch the bottom of the banner */
 #header-bottom-left .tabmenu {
-  position: relative;
-  bottom: -10px;
+  position: absolute;
+  bottom: 0px;
+  left: 20px;
 }
 
 /* == redditBassic reddit CSS Theme v1.4 - (http://www.reddit.com/r/redditBasic/)== */
