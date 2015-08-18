@@ -10,12 +10,23 @@
   bottom: 30px;
 }
 
-/* hide the subreddit name */
-#header-bottom-left .redditname {
-  display: none;
+/* subreddit name positioning */
+#header-bottom-left .redditname a {
+  display: block;
+  position: absolute;
+  bottom: 43px;
+  left: 230px;
+  color: white;
+  background-color: rgba(255, 0, 0, 0.5);
+  border-radius: 4px !important;
+  padding: 5px;
 }
 
-/* nudge tabmenu slightly down, to touch the bottom of the banner */
+#header-bottom-left .redditname a:hover {
+  background-color: rgba(255, 0, 0, 0.8);
+}
+
+/* nudge tabmenu down, to touch the bottom of the banner */
 #header-bottom-left .tabmenu {
   position: absolute;
   bottom: 0px;
