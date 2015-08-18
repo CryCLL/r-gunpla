@@ -22,6 +22,11 @@
   left: 20px;
 }
 
+/* self-post icon */
+.self .thumbnail {
+  background: url(%%selfpost%%);
+}
+
 /* == redditBassic reddit CSS Theme v1.4 - (http://www.reddit.com/r/redditBasic/)== */
 
 
