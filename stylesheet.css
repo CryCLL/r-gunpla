@@ -27,6 +27,21 @@
   background: url(%%selfpost%%);
 }
 
+/* customise "subscribers" and "online" phrases */
+.titlebox .subscribers .word, .titlebox .users-online .word {
+  display: none
+}
+
+/* subscribers */
+.titlebox .subscribers .number:after {
+  content: " followers of MG Ball"
+}
+
+/* online now */
+.titlebox .users-online span.number:after {
+  content: " browsing at Iori Hobby store right now"
+}
+
 /* == redditBassic reddit CSS Theme v1.4 - (http://www.reddit.com/r/redditBasic/)== */
 
 
